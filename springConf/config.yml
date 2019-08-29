@@ -1,5 +1,5 @@
 turbine: 
-  appConfig: spring-cloud-client-b
+  appConfig: spring-cloud-client-b,spring-cloud-client-a
   aggregator: 
     clusterConfig: default
   clusterNameExpression: new String("default")
