@@ -7,7 +7,7 @@ server:
 eureka: 
   client: 
     serviceUrl: 
-      defaultZone: http://peer1:20000/eureka/,http://peer2:20001/eureka/
+      defaultZone: http://peer1:20000/eureka/
 #      register-with-eureka: false
 #      fetch-registry: false
 management:
@@ -17,7 +17,7 @@ management:
         include: refresh
 
 turbine: 
-  appConfig: spring-cloud-client-b,spring-cloud-client-a
+  appConfig: spring-cloud-client-a
   aggregator: 
     clusterConfig: default
   clusterNameExpression: new String("default")
