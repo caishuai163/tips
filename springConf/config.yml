@@ -2,7 +2,7 @@ spring:
   application: 
     name: hystrix-dashboard-turbine
 server: 
-  port: 22001
+  port: 22002
   
 eureka: 
   client: 
